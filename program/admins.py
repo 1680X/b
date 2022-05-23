@@ -21,7 +21,7 @@ from pyrogram.types import (
 )
 
 
-@Client.on_message(command(["/reload", f"تحديث", "حديث"]) & other_filters)
+@Client.on_message(command(["reload", f"تحديث", "حديث"]) & other_filters)
 @authorized_users_only
 async def update_admin(client, message):
     global admins
@@ -35,7 +35,7 @@ async def update_admin(client, message):
     )
 
 
-@Client.on_message(command(["/skip", f"/skip@{BOT_USERNAME}", ""]) & other_filters)
+@Client.on_message(command(["skip", f"تخطي", "خطي"]) & other_filters)
 @authorized_users_only
 async def skip(c: Client, m: Message):
     user_id = m.from_user.id
@@ -82,7 +82,7 @@ async def skip(c: Client, m: Message):
 
 
 @Client.on_message(
-    command(["/end", f"/end@{BOT_USERNAME}", ""])
+    command(["stop", f"stop@{BOT_USERNAME}", "end", f"نهاء", "انهاء"])
     & other_filters
 )
 @authorized_users_only
@@ -100,7 +100,7 @@ async def stop(client, m: Message):
 
 
 @Client.on_message(
-    command(["/pause", f"/pause@{BOT_USERNAME}", ""]) & other_filters
+    command(["pause", f"pause@{BOT_USERNAME}", "vpause"]) & other_filters
 )
 @authorized_users_only
 async def pause(client, m: Message):
@@ -118,7 +118,7 @@ async def pause(client, m: Message):
 
 
 @Client.on_message(
-    command(["/resume", f"/resume@{BOT_USERNAME}", ""]) & other_filters
+    command(["resume", f"resume@{BOT_USERNAME}", "vresume"]) & other_filters
 )
 @authorized_users_only
 async def resume(client, m: Message):
