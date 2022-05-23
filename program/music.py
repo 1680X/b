@@ -46,7 +46,7 @@ async def ytdl(link: str):
     return 0, stderr
 
 
-@Client.on_message(command(["/play", "" ,"" ,"", f"/play@{BOT_USERNAME}", ""]) & other_filters)
+@Client.on_message(command(["/play", "" ,"" ,"تشفيل", f"/play@{BOT_USERNAME}", ""]))
 async def play(c: Client, m: Message):
     replied = m.reply_to_message
     chat_id = m.chat.id
