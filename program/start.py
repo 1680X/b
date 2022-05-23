@@ -70,7 +70,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• نـصـب بـوتك مـن هـنا •", url="https://t.me/VFF35",
+                        "• نـصـب بـوتك مـن هـنا •", url="https://t.me/B_O_N_T",
                     )
                 ],
                 [InlineKeyboardButton("", callback_data="cbhowtouse")],
@@ -101,15 +101,15 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/4cbb70d2cbcef89687188.jpg",
-        caption=f"""𝘀𝗼𝘂𝗿𝗰𝗲 𝗰𝗼𝗯𝗿𝗮 سورس كوبرا](https://t.me/VFF35) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        caption=f"""˹𝙎𝙤𝙐𝙧𝘾𝙚 𝙉𝙖𝙎𝙖 .⚡](https://t.me/B_O_N_T) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("قناة الشروحات", url=f"https://t.me/VFF34"),
+                InlineKeyboardButton("˹𝙎𝙤𝙐𝙧𝘾𝙚 𝙉𝙖𝙎𝙖 .⚡", url=f"https://t.me/B_O_N_T"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝐒𝐈𝐅 𝐂𝐎𝐁𝐑𝐀", url=f"https://t.me/QABNADLIB"
+                    "‹ᴀ.ʟ.ɪ~ʙ.ᴀ.ɴ.ᴅ.ᴀ›", url=f"https://t.me/Q_o_ll"
                 ),
             ],
             [
@@ -127,7 +127,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("𝘀𝗼𝘂𝗿𝗰𝗲 𝗰𝗼𝗯𝗿𝗮 سورس كوبرا", url=f"https://t.me/QABNADLIB"),
+                InlineKeyboardButton("˹‹ᴀ.ʟ.ɪ~ʙ.ᴀ.ɴ.ᴅ.ᴀ›", url=f"https://t.me/Q_o_ll"),
             ],
             [
                 InlineKeyboardButton(
